@@ -1,2 +1,4 @@
 echo supergeil
-git pull
+ls
+cd all-services
+npm run build
