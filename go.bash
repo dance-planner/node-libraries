@@ -1,1 +1,2 @@
 echo supergeil
+git pull
