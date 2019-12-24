@@ -15,4 +15,4 @@ jobs:
       run: |
         echo Add other actions to build,
         echo geil,
-        sshpass -p ${{ secrets.pw }} ssh root@116.202.12.215 -o StrictHostKeyChecking=no < ./deploy-backend.bash
+        sshpass -p ${{ secrets.pw }} ssh root@116.202.12.215 -o StrictHostKeyChecking=no < ./go.bash
