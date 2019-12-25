@@ -1,0 +1,15 @@
+name: Fetch Dance Planner Data
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: fetch dance planner data
+      run: |
+        echo fetching dance planner data,
+        sshpass -p ${{ secrets.pw }} ssh root@116.202.12.215 -o StrictHostKeyChecking=no < ./fetch-dance-planner-data.bash
