@@ -1,8 +1,9 @@
 {
-  "name": "node-libraries",
-  "version": "1.0.0",
+  "name": "country-flag-provider",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/dance-planner/node-libraries.git"
   },
-  "author": "Michael",
+  "author": "",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/dance-planner/node-libraries/issues"
   },
   "homepage": "https://github.com/dance-planner/node-libraries#readme",
   "dependencies": {
-    "fs-sync": "^1.0.6"
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }
